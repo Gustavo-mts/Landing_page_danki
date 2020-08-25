@@ -19,7 +19,7 @@ html, body{
 }
 
 .header{
-    width: 1005;
+    width: 100%;
     padding: 0 2%
     height: 60px;
     background-color: #212343;
@@ -27,6 +27,15 @@ html, body{
 
 .header img{
     margin: 15px
+}
+
+.container-banner{
+    width: 100%;
+    padding: 0 2%;
+    height: 557px;
+    background-image: url("imagens/bd8fd4dd-5414-4ac2-b809-8393407c1295.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .container-banner > .center{
