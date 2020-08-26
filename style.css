@@ -21,8 +21,8 @@ html, body{
 }
 
 .header{
-    width: 100%;
-    padding: 0 2%
+    width: 1280px;
+    padding: 0 2%;
     height: 60px;
     background-color: #212343;
 }
@@ -62,4 +62,74 @@ html, body{
     font-weight: normal;
     color: #999999;
     font-size: 21px;
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span{
+    display: inline-block;
+    width: 100%;
+    color: #bbbbbb;
+    font-size: 17px;
+}
+
+.form p{
+    display: inline-block;
+    width: 100%;
+    color: #bbbbbb;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.input-container input[type=text]{
+    margin-top: 8px;
+    width: 334px;
+    height: 55px;
+    border: 1px  solid #ccc;
+}
+
+.form .input-submit-container{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    background-color: #363a6d;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    cursor: pointer;
+    border-bottom: 5px solid #4a5097;
+}
+
+.form input[type=submit]:hover{
+    background-color: #161831;
+}
+
+.container-list{
+    padding: 30px;
+    margin-top: 100px;
+    float: left;
+    width: 429px;
+    height: 270px;
+    background-color: rgba(31, 33, 82, 0.5);
+}
+
+.container-list:hover{
+    background-color: #212343; ;
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    margin-top: 18px;
+    color: white;
 }
