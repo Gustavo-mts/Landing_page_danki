@@ -133,3 +133,7 @@ html, body{
     margin-top: 18px;
     color: white;
 }
+.container-section {
+    display: flex;
+    justify-content: space-between;
+}
